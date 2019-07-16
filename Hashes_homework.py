@@ -3,7 +3,10 @@
 print("..........Exercise 4..................... ")
 print(' ')
 
-print("Hi there, lets make a story together")
+
+username = input("Hi there,Whats your name?")
+
+print("Welcome " + username + " lets make a your together")
 input('press enter to start your story')
 print(' ')
 
@@ -22,4 +25,4 @@ print(story['Beginning']) #print beginning
 print(story['Middle']) #print beginning
 print(story['End']) #print beginning
 
-print (story) #printing the whole has (story)
+#print (story) #printing the whole has (story)
